@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flexbox-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.flexbox-item{
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: aliceblue;
+}
+.flexbox-item-1{
+  min-height: 100px;
+  flex-grow: 1;
+}
+.flexbox-item-2{
+  min-height: 100px;
+  flex-grow: 1;
+}
+.flexbox-item-3{
+  min-height: 100px;
+  flex-grow: 1;
+
+}
